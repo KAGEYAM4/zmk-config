@@ -76,7 +76,7 @@
         my_vol_br_i: my_vol_br_i {
             compatible = "zmk,behavior-mod-morph";
             label = "MY_VOL_BR_I";
-            bindings = <&kp C_VOLUME_UP>, <&kp C_BRIGHTNESS_INC>;
+            bindings = <&kp K_VOLUME_UP>, <&kp C_BRIGHTNESS_INC>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
@@ -85,7 +85,7 @@
         my_vol_br_d: my_vol_br_d {
             compatible = "zmk,behavior-mod-morph";
             label = "MY_VOL_BR_D";
-            bindings = <&kp C_VOLUME_DOWN>, <&kp C_BRIGHTNESS_DEC>;
+            bindings = <&kp K_VOLUME_DOWN>, <&kp C_BRIGHTNESS_DEC>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
